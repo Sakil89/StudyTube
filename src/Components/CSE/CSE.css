@@ -1,0 +1,32 @@
+.active-style {
+  color: green;
+  background: blue;
+}
+.semester-parent {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+  justify-content: space-between;
+  overflow-x: auto;
+}
+.semester-child {
+  background: linear-gradient(130deg, #01274c, white);
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+}
+.semester-name {
+  /* font-size:1.5vmax; */
+  text-align: center;
+  color:white;
+}
+.user-alert-msg {
+  /* background:red; */
+  width: 70%;
+  height: 70vh;
+  margin: 50px auto;
+  border-radius: 8px;
+  font-size: 5vw;
+  display:grid;
+  place-items:center;
+}

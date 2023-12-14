@@ -1,0 +1,22 @@
+.container-fluid {
+  background: linear-gradient(-10deg, #ffffff, #01274c);
+}
+.footer li {
+  list-style: none;
+}
+.footer li a {
+  text-decoration: none;
+}
+.contact-us>div,.follow-us>div{
+  margin:50px 0;
+}
+.contact-us,.follow-us h1 {
+  color: white;
+}
+.contact-us h1{
+  text-align: center;
+}
+.follow-us i {
+  font-size: 40px;
+  margin: 0 10px;
+}

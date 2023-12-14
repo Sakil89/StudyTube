@@ -1,0 +1,60 @@
+.selected-sem-name{
+text-align:center;
+color:white;
+}
+/* .........courses and playlist............. */
+.course-list {
+  background: linear-gradient(130deg, #01274c, white);
+  border-radius: 15px;
+  color: white;
+  margin: 15px 0;
+}
+.course-index {
+}
+.playlists {
+  background: linear-gradient(130deg, #01274c, white);
+  color: white;
+  height: 360px;;
+  position: relative;
+  overflow: auto;
+  /* margin: 10px 0; */
+  padding: 10px 0;
+  border-radius: 15px;
+}
+.playlist {
+  margin: 2px;
+}
+.playlists > h5 {
+  padding: 3px 15px;
+  text-align: center;
+}
+.hover-over:hover {
+  color: red;
+  background: white;
+  cursor: pointer;
+}
+/* ...........video part............ */
+.playlist-video {
+  border: 3px solid red;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 550px;
+  padding: 0;
+  margin:10px 0;
+}
+/* ......extra........... */
+.btn {
+  border-radius: 15px;
+  background: red;
+  outline: none;
+}
+.empty-msg {
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 80%;
+  margin: 20% auto;
+  color: white;
+  /* background:red; */
+}
